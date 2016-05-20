@@ -11,3 +11,4 @@ Vad har man dessa till?
 
 En session representeras av ett HttpSession-objekt. Användare som öppnar en sida tilldelas ett id i ett Session-object. 
 Anropa getSession på en request för att få sessionen.
+En Session Beans data sparas inte i en databas.
