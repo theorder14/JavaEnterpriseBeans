@@ -1,0 +1,15 @@
+Fragor/omraden att undersoka under veckan i era grupper:
+
+Vad ar EJB? Nar introducerades det till Java EE?
+Teknik for att hantera transaktioner, databasoperationer och centrala tjanster i mjukvara for affarssystem.
+
+Det finns nagra olika sorters bonor i EJB, vilka da? Vad har man dem till?
+stateful, stateless, and singleton.
+Stateless bean kan implentera en webservice medans en stateful kan inte gora det.
+En stateless sessionsbona behaller inget tillstand mellan sig sjalv och klienten mellan anrop av olika metoder. Detta innebar att bonorna ar delade mellan olika klienter, viket i sin tur betyder att man skall inte spara tillstand i instansvariabler nar man anvander sig utav Statless EJB.
+
+Bygg ngt enkelt exempel som visar upp de olika sorternas bonorna
+
+Vad ar "session"?
+Mangd program,installningar och resurser som visas pa skrivbordet. Gor att en anvandarsession kan sparas och aterstallas.
+En anvandare kan logga in i systemet och ta del av samma program, installningar och resurser som fanns nar anvandaren loggade ut.
